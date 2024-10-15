@@ -27,12 +27,18 @@ h1 {
   background-color: rgba(255, 255, 255, 0.5);
   height: 25px;
   width: 110px;
-  display: inline-block;
+  /*border-left-width: 10px;*/
+  /*border-left-style: double;*/
+  /*border-left-color: rgba(0, 0, 0, .75);*/
+  border-left: 10px double rgba(0, 0, 0, .75);
   /*Opacity can be added to the color property*/
-  opacity: 0.5;
+  /*opacity: 0.5;*/
 }
 .cap {
-  width: 90px;
+  width: 60px;
   height: 25px;
+}
+
+.cap, .sleeve {
   display: inline-block;
 }
